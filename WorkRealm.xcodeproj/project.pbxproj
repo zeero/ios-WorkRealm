@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8606911C42006B0051C06F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8606901C42006B0051C06F /* AppDelegate.swift */; };
+		4B8606931C42006B0051C06F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8606921C42006B0051C06F /* ViewController.swift */; };
+		4B8606961C42006B0051C06F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8606941C42006B0051C06F /* Main.storyboard */; };
+		4B8606991C42006C0051C06F /* WorkRealm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B8606971C42006C0051C06F /* WorkRealm.xcdatamodeld */; };
+		4B86069B1C42006C0051C06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B86069A1C42006C0051C06F /* Assets.xcassets */; };
+		4B86069E1C42006C0051C06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B86069C1C42006C0051C06F /* LaunchScreen.storyboard */; };
+		4B8606A91C42006C0051C06F /* WorkRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8606A81C42006C0051C06F /* WorkRealmTests.swift */; };
+		4B8606B41C42006C0051C06F /* WorkRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8606B31C42006C0051C06F /* WorkRealmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8606A51C42006C0051C06F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8606851C42006B0051C06F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B86068C1C42006B0051C06F;
+			remoteInfo = WorkRealm;
+		};
+		4B8606B01C42006C0051C06F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8606851C42006B0051C06F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B86068C1C42006B0051C06F;
+			remoteInfo = WorkRealm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B86068D1C42006B0051C06F /* WorkRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8606901C42006B0051C06F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B8606921C42006B0051C06F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8606951C42006B0051C06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B8606981C42006C0051C06F /* WorkRealm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkRealm.xcdatamodel; sourceTree = "<group>"; };
+		4B86069A1C42006C0051C06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B86069D1C42006C0051C06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B86069F1C42006C0051C06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8606A41C42006C0051C06F /* WorkRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8606A81C42006C0051C06F /* WorkRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkRealmTests.swift; sourceTree = "<group>"; };
+		4B8606AA1C42006C0051C06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8606AF1C42006C0051C06F /* WorkRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8606B31C42006C0051C06F /* WorkRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkRealmUITests.swift; sourceTree = "<group>"; };
+		4B8606B51C42006C0051C06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B86068A1C42006B0051C06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8606A11C42006C0051C06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8606AC1C42006C0051C06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8606841C42006B0051C06F = {
+			isa = PBXGroup;
+			children = (
+				4B86068F1C42006B0051C06F /* WorkRealm */,
+				4B8606A71C42006C0051C06F /* WorkRealmTests */,
+				4B8606B21C42006C0051C06F /* WorkRealmUITests */,
+				4B86068E1C42006B0051C06F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B86068E1C42006B0051C06F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B86068D1C42006B0051C06F /* WorkRealm.app */,
+				4B8606A41C42006C0051C06F /* WorkRealmTests.xctest */,
+				4B8606AF1C42006C0051C06F /* WorkRealmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B86068F1C42006B0051C06F /* WorkRealm */ = {
+			isa = PBXGroup;
+			children = (
+				4B8606901C42006B0051C06F /* AppDelegate.swift */,
+				4B8606921C42006B0051C06F /* ViewController.swift */,
+				4B8606941C42006B0051C06F /* Main.storyboard */,
+				4B86069A1C42006C0051C06F /* Assets.xcassets */,
+				4B86069C1C42006C0051C06F /* LaunchScreen.storyboard */,
+				4B86069F1C42006C0051C06F /* Info.plist */,
+				4B8606971C42006C0051C06F /* WorkRealm.xcdatamodeld */,
+			);
+			path = WorkRealm;
+			sourceTree = "<group>";
+		};
+		4B8606A71C42006C0051C06F /* WorkRealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8606A81C42006C0051C06F /* WorkRealmTests.swift */,
+				4B8606AA1C42006C0051C06F /* Info.plist */,
+			);
+			path = WorkRealmTests;
+			sourceTree = "<group>";
+		};
+		4B8606B21C42006C0051C06F /* WorkRealmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8606B31C42006C0051C06F /* WorkRealmUITests.swift */,
+				4B8606B51C42006C0051C06F /* Info.plist */,
+			);
+			path = WorkRealmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B86068C1C42006B0051C06F /* WorkRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8606B81C42006C0051C06F /* Build configuration list for PBXNativeTarget "WorkRealm" */;
+			buildPhases = (
+				4B8606891C42006B0051C06F /* Sources */,
+				4B86068A1C42006B0051C06F /* Frameworks */,
+				4B86068B1C42006B0051C06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkRealm;
+			productName = WorkRealm;
+			productReference = 4B86068D1C42006B0051C06F /* WorkRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8606A31C42006C0051C06F /* WorkRealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8606BB1C42006C0051C06F /* Build configuration list for PBXNativeTarget "WorkRealmTests" */;
+			buildPhases = (
+				4B8606A01C42006C0051C06F /* Sources */,
+				4B8606A11C42006C0051C06F /* Frameworks */,
+				4B8606A21C42006C0051C06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8606A61C42006C0051C06F /* PBXTargetDependency */,
+			);
+			name = WorkRealmTests;
+			productName = WorkRealmTests;
+			productReference = 4B8606A41C42006C0051C06F /* WorkRealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8606AE1C42006C0051C06F /* WorkRealmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8606BE1C42006C0051C06F /* Build configuration list for PBXNativeTarget "WorkRealmUITests" */;
+			buildPhases = (
+				4B8606AB1C42006C0051C06F /* Sources */,
+				4B8606AC1C42006C0051C06F /* Frameworks */,
+				4B8606AD1C42006C0051C06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8606B11C42006C0051C06F /* PBXTargetDependency */,
+			);
+			name = WorkRealmUITests;
+			productName = WorkRealmUITests;
+			productReference = 4B8606AF1C42006C0051C06F /* WorkRealmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8606851C42006B0051C06F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 26wonders;
+				TargetAttributes = {
+					4B86068C1C42006B0051C06F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B5ZFM7NGLP;
+					};
+					4B8606A31C42006C0051C06F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B5ZFM7NGLP;
+						TestTargetID = 4B86068C1C42006B0051C06F;
+					};
+					4B8606AE1C42006C0051C06F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = B5ZFM7NGLP;
+						TestTargetID = 4B86068C1C42006B0051C06F;
+					};
+				};
+			};
+			buildConfigurationList = 4B8606881C42006B0051C06F /* Build configuration list for PBXProject "WorkRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8606841C42006B0051C06F;
+			productRefGroup = 4B86068E1C42006B0051C06F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B86068C1C42006B0051C06F /* WorkRealm */,
+				4B8606A31C42006C0051C06F /* WorkRealmTests */,
+				4B8606AE1C42006C0051C06F /* WorkRealmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B86068B1C42006B0051C06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B86069E1C42006C0051C06F /* LaunchScreen.storyboard in Resources */,
+				4B86069B1C42006C0051C06F /* Assets.xcassets in Resources */,
+				4B8606961C42006B0051C06F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8606A21C42006C0051C06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8606AD1C42006C0051C06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8606891C42006B0051C06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8606931C42006B0051C06F /* ViewController.swift in Sources */,
+				4B8606911C42006B0051C06F /* AppDelegate.swift in Sources */,
+				4B8606991C42006C0051C06F /* WorkRealm.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8606A01C42006C0051C06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8606A91C42006C0051C06F /* WorkRealmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8606AB1C42006C0051C06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8606B41C42006C0051C06F /* WorkRealmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8606A61C42006C0051C06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B86068C1C42006B0051C06F /* WorkRealm */;
+			targetProxy = 4B8606A51C42006C0051C06F /* PBXContainerItemProxy */;
+		};
+		4B8606B11C42006C0051C06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B86068C1C42006B0051C06F /* WorkRealm */;
+			targetProxy = 4B8606B01C42006C0051C06F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8606941C42006B0051C06F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8606951C42006B0051C06F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B86069C1C42006C0051C06F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B86069D1C42006C0051C06F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8606B61C42006C0051C06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B8606B71C42006C0051C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8606B91C42006C0051C06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WorkRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.26wonders.WorkRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B8606BA1C42006C0051C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WorkRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.26wonders.WorkRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B8606BC1C42006C0051C06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WorkRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.26wonders.WorkRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkRealm.app/WorkRealm";
+			};
+			name = Debug;
+		};
+		4B8606BD1C42006C0051C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WorkRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.26wonders.WorkRealmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkRealm.app/WorkRealm";
+			};
+			name = Release;
+		};
+		4B8606BF1C42006C0051C06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WorkRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.26wonders.WorkRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WorkRealm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4B8606C01C42006C0051C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WorkRealmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.26wonders.WorkRealmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WorkRealm;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8606881C42006B0051C06F /* Build configuration list for PBXProject "WorkRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8606B61C42006C0051C06F /* Debug */,
+				4B8606B71C42006C0051C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8606B81C42006C0051C06F /* Build configuration list for PBXNativeTarget "WorkRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8606B91C42006C0051C06F /* Debug */,
+				4B8606BA1C42006C0051C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8606BB1C42006C0051C06F /* Build configuration list for PBXNativeTarget "WorkRealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8606BC1C42006C0051C06F /* Debug */,
+				4B8606BD1C42006C0051C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8606BE1C42006C0051C06F /* Build configuration list for PBXNativeTarget "WorkRealmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8606BF1C42006C0051C06F /* Debug */,
+				4B8606C01C42006C0051C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B8606971C42006C0051C06F /* WorkRealm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B8606981C42006C0051C06F /* WorkRealm.xcdatamodel */,
+			);
+			currentVersion = 4B8606981C42006C0051C06F /* WorkRealm.xcdatamodel */;
+			path = WorkRealm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B8606851C42006B0051C06F /* Project object */;
+}
