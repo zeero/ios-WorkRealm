@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let employee = Employee()
+        employee.name = "Jonathan"
+        NSLog("debug: " + employee.name)
+        
+        let realm :RLMRealm = RLMRealm.defaultRealm()
+        realm.beginWriteTransaction()
+        realm.addObject(employee)
+        try! realm.commitWriteTransaction()
     }
 
     override func didReceiveMemoryWarning() {
